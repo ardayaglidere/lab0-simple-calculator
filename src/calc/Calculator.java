@@ -6,7 +6,7 @@ public class Calculator {
     static final int SUB = 2;
     static final int MUL = 3;
     static final int DIV = 4;
-    static final int EXIT = 5;
+    static final int EXIT = 0;
 
     // Global variables of the class
     static boolean error = false;
