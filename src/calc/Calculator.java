@@ -36,9 +36,10 @@ public class Calculator {
             }
 
             // Get user input for numbers
-            in = IO.readln("Enter first operand: ");
+            
+            in = IO.readln(" Please, Enter first number: ");
             num1 = Double.parseDouble(in);
-            in = IO.readln("Enter second operand: ");
+            in = IO.readln(" Please, Enter second number: ");
             num2 = Double.parseDouble(in);
 
             // Compute result
