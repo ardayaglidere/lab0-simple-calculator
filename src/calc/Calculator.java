@@ -73,6 +73,7 @@ public class Calculator {
                 break;
             case SUB:
                 // TODO: manage subtraction
+                result = sub(num1, num2);
                 break;
             case MUL:
                 result = multiply(num1, num2);
@@ -107,5 +108,9 @@ public class Calculator {
             setError("Division by zero!");
             return Double.NaN;
         }
+    }
+
+    public static double sub(double num1,double num2){
+        return num1-num2;
     }
 }
