@@ -17,10 +17,10 @@ public class Calculator {
         double num1;
         double num2;
         double result;
-
+        IO.println("\nSimple Calculator");
         while (true) {
             // Display the menu
-            IO.println("\nSimple Calculator");
+            
             IO.println(SUM+". Add");
             IO.println(SUB+". Subtract");
             IO.println(MUL+". Multiply");
